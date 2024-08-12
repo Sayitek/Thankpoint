@@ -1,0 +1,26 @@
+.communication_container h1{
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.reward_creation_container{
+    margin-top: 45px;
+    background-color: white;
+    border-radius: 22px !important;
+    height: 574px;
+   
+    padding: 54px ;
+}
+
+.reward_creation_container img{
+    width: 20%;
+    cursor: pointer;
+}
+
+
+.reward_creation_container p{
+  color: rgba(88, 91, 104, 1);
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: -23px;
+}

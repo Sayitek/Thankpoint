@@ -1,0 +1,11 @@
+ .reward_management_container h1{
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.reward_management_table{
+    margin-top: 45px;
+    background-color: white;
+    padding: 34px;
+    border-radius: 12px;
+}

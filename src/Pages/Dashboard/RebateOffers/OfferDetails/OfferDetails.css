@@ -1,0 +1,71 @@
+.offer_details_content {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer_details_content .information {
+    width: 43%;
+
+}
+
+.offer_details_content .information_content {
+    background-color: white;
+    border-radius: 12px;
+    padding: 22px 38px;
+}
+
+.offer_details_content .information h1,
+.offer_details_content .details h1 {
+    color: red;
+    font-size: 18px;
+}
+
+.offer_details_content .details {
+
+    width: 51%;
+
+}
+
+.offer_details_content .detail_content {
+    border-radius: 12px;
+    background-color: white;
+    padding: 22px 38px;
+}
+
+.offer_details_content .details .reject {
+    width: 25%;
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    font-weight: 300;
+}
+
+.offer_details_content .details .approve {
+    font-weight: 300;
+    width: 25%;
+}
+
+.detail_content_flex ,.detail_content_flex1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.detail_content_flex1 {
+    margin-top: 15px; 
+}
+
+.detail_content_flex h1 ,.detail_content_flex1 h1 {
+    color: rgba(88, 91, 104, 1) !important;
+    font-weight: 800 !important;
+    font-size: 12px !important;
+}
+
+
+.detail_content_flex p,.detail_content_flex1 p {
+    color: rgba(96, 96, 96, 1) !important;
+    font-size: 12px !important;
+    line-height: 19px;
+    margin-bottom: 10px;
+}

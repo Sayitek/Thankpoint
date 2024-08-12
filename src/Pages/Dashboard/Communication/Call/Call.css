@@ -1,0 +1,32 @@
+.calls_back_button {
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    color: rgba(178, 178, 178, 1);
+    margin-bottom: 12px;
+    column-gap: 5px;
+    cursor: pointer;
+}
+
+.calls {
+    background-color: rgba(0, 148, 128, 1);
+    color: white;
+    display: flex;
+    border-radius: 18px;
+    align-items: center;
+    padding: 9px 12px;
+    column-gap: 24px;
+}
+
+.call_content_container {
+    background-color: white;
+    border-radius: 12px;
+    padding: 31px 50px;
+    padding-bottom: 60px;
+    margin-top: 41px;
+}
+
+.call_content{
+    width: 70%;
+    margin-top: 26px;
+}

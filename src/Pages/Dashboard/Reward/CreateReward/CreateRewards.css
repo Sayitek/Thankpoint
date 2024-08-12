@@ -1,0 +1,115 @@
+.create_reward_container h1{
+    font-weight: 600;
+    font-size: 28px;
+}
+
+/* .reward_management_table{
+    margin-top: 45px;
+    background-color: white;
+    padding: 34px;
+    border-radius: 12px;
+} */
+
+.create_reward_content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.reward_program{
+    width: 58%;
+}
+
+.reward_tiers{
+
+    width: 58%;
+    margin-top: 24px;
+  
+}
+
+.reward_tiers_content{
+    background-color: white;
+
+    border-radius: 12px;
+    padding: 19px; 
+}
+
+.program_details{
+    background-color: white;
+    border-radius: 12px;
+    padding: 19px;   
+}
+
+.reward_tiers h1 , .program_details h1, .customized_option h1 , .offer_parameter h1{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.reward_tiers .header{
+    color: rgba(88, 91, 104, 1);
+    font-size: 16px;
+}
+
+.program_details  div{
+    border: 1px solid rgba(224, 224, 224, 1);
+    border-radius: 8px;
+    margin-top: 24px;
+    padding: 4px 10px;
+}
+
+.reward_tiers_content .title , .reward_tiers_content .method{
+    border: 1px solid rgba(224, 224, 224, 1);
+    border-radius: 8px;
+    width: 70%;
+    margin-top: 24px;
+    padding: 4px 10px;
+}
+
+.reward_tiers_content .point{
+    border: 1px solid rgba(224, 224, 224, 1);
+    border-radius: 8px;
+    width: 50%;
+    margin-top: 21px;
+    padding: 4px 10px;
+}
+
+.reward_tiers_content .title span , .reward_tiers_content .method span ,
+ .reward_tiers_content .point span , .program_details span{
+    font-size: 9px;
+    line-height: 18px;
+    color: rgba(178, 178, 178, 1);
+}
+
+.reward_tiers_content .title p ,.reward_tiers_content .method p,
+.reward_tiers_content .point p , .program_details p{
+    font-size: 14px;
+    color: 
+    rgba(88, 91, 104, 1);
+    line-height: 21px;
+  
+}
+
+.reward_tiers_button{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 34px;
+    column-gap: 15px;
+}
+
+
+.reward_tiers_button .cancel{
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    width: 35%;
+    font-weight: 400;
+}
+
+
+
+.reward_tiers_button .save{
+    width: 35%;
+    font-weight: 400;
+}

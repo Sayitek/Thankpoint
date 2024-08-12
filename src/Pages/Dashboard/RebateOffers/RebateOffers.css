@@ -1,0 +1,29 @@
+.rebate_container h1{
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.rebate_creation_container{
+    margin-top: 45px;
+    background-color: white;
+    border-radius: 22px !important;
+    height: 574px;
+   display: flex;
+    padding: 54px ;
+    column-gap: 4px;
+}
+
+.rebate_creation_container img{
+    width: 90%;
+    cursor: pointer;
+  
+}
+
+
+.rebate_creation_container p{
+  color: rgba(88, 91, 104, 1);
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: -23px;
+  /* text-align: center; */
+}

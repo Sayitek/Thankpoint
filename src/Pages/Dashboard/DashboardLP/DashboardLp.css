@@ -1,0 +1,38 @@
+.dashboard_stat {
+    margin-top: 32px;
+    display: flex;
+    column-gap:     18px;
+}
+
+.active_user,.rebate_officer, .transaction_volume{
+    width: 22%;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    height: 119px;
+    padding: 19px 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dashboard_charts {
+    margin-top: 52px;
+    height: 344px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.dashboard_charts h2 , .dashboard_table h2{
+    font-size: 19px;
+    font-weight: 24px;
+}
+
+.dashboard_table{
+    border-radius: 12px;
+    margin-top: 52px;
+    padding: 30px;
+    background-color: white;
+}
